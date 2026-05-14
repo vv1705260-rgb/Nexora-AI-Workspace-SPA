@@ -375,3 +375,86 @@
     color: #374151;
 
   }
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 1200px) {
+
+    .footer-top {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .footer {
+
+        padding: 60px 30px 25px;
+
+    }
+
+    .footer-top {
+
+        gap: 35px;
+
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .footer-top {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .footer-bottom {
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+    .footer-logo h2 {
+
+        font-size: 1.7rem;
+
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .footer {
+
+        padding: 50px 20px 20px;
+
+    }
+
+    .footer-socials {
+
+        flex-wrap: wrap;
+
+    }
+
+    .newsletter-box input {
+
+        padding: 14px 15px;
+
+    }
+
+    .newsletter-box button {
+
+        width: 54px;
+
+        height: 54px;
+
+    }
+
+}
