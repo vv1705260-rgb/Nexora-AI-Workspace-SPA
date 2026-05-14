@@ -425,3 +425,177 @@
         linear-gradient(
             135deg,
             rgba(0,247,255,0.
+12),
+            rgba(139,92,246,0.12)
+        );
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    backdrop-filter: blur(25px);
+
+    transition: 0.4s ease;
+
+}
+
+.cta-box:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 0 30px rgba(0,247,255,0.15);
+
+}
+
+/* TITLE */
+
+.cta-box h2 {
+
+    font-size: 3rem;
+
+    margin-bottom: 20px;
+
+    color: white;
+
+}
+
+.light-theme .cta-box h2 {
+
+    color: #111827;
+
+}
+
+/* TEXT */
+
+.cta-box p {
+
+    max-width: 700px;
+
+    margin: auto;
+
+    margin-bottom: 35px;
+
+    line-height: 1.8;
+
+    color: #cbd5e1;
+
+    font-size: 1.05rem;
+
+}
+
+.light-theme .cta-box p {
+
+    color: #374151;
+
+}
+
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 1200px) {
+
+    .team-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .values-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .about-hero {
+
+        padding: 100px 30px 70px;
+
+    }
+
+    .mission-section,
+    .values-section,
+    .team-section,
+    .about-cta {
+
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+
+    .mission-section {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .about-content h1 {
+
+        font-size: 3rem;
+
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .team-grid,
+    .values-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .about-content h1 {
+
+        font-size: 2.4rem;
+
+    }
+
+    .mission-card,
+    .value-card,
+    .team-card {
+
+        padding: 30px 22px;
+
+    }
+
+    .cta-box {
+
+        padding: 50px 25px;
+
+    }
+
+    .cta-box h2 {
+
+        font-size: 2.2rem;
+
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .about-content h1 {
+
+        font-size: 2rem;
+
+    }
+
+    .about-content p {
+
+        font-size: 1rem;
+
+    }
+
+    .mission-card h2,
+    .cta-box h2 {
+
+        font-size: 1.8rem;
+
+    }
+
+}
