@@ -1,0 +1,260 @@
+/* =========================================
+   GOOGLE FONT
+========================================= */
+
+@import url(
+'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap'
+);
+
+/* =========================================
+   CSS VARIABLES
+========================================= */
+
+:root {
+
+    --primary-color: #00f7ff;
+
+    --secondary-color: #8b5cf6;
+
+    --dark-bg: #050816;
+
+    --dark-card: rgba(255,255,255,0.05);
+
+    --light-bg: #f8fafc;
+
+    --light-card: rgba(255,255,255,0.9);
+
+    --text-light: #ffffff;
+
+    --text-dark: #111827;
+
+    --text-gray: #cbd5e1;
+
+    --border-color: rgba(255,255,255,0.08);
+
+    --transition: 0.4s ease;
+
+}
+
+/* =========================================
+   RESET
+========================================= */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+/* =========================================
+   HTML
+========================================= */
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+/* =========================================
+   BODY
+========================================= */
+
+body {
+
+    font-family: "Poppins", sans-serif;
+
+    background: var(--dark-bg);
+
+    color: var(--text-light);
+
+    overflow-x: hidden;
+
+    transition: var(--transition);
+
+}
+
+/* =========================================
+   LIGHT THEME
+========================================= */
+
+body.light-theme {
+
+    background: var(--light-bg);
+
+    color: var(--text-dark);
+
+}
+
+/* =========================================
+   APP CONTAINER
+========================================= */
+
+.app-container {
+
+    width: 100%;
+
+    min-height: 100vh;
+
+    position: relative;
+
+}
+
+/* =========================================
+   MAIN CONTENT
+========================================= */
+
+.main-content {
+
+    width: 100%;
+
+    min-height: 100vh;
+
+}
+
+/* =========================================
+   BACKGROUND EFFECTS
+========================================= */
+
+body::before {
+
+    content: "";
+
+    position: fixed;
+
+    top: -200px;
+
+    left: -200px;
+
+    width: 500px;
+
+    height: 500px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(0,247,255,0.15),
+            transparent 70%
+        );
+
+    z-index: -2;
+
+}
+
+body::after {
+
+    content: "";
+
+    position: fixed;
+
+    bottom: -200px;
+
+    right: -200px;
+
+    width: 500px;
+
+    height: 500px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(139,92,246,0.15),
+            transparent 70%
+        );
+
+    z-index: -2;
+
+}
+
+/* =========================================
+   LINKS
+========================================= */
+
+a {
+
+    text-decoration: none;
+
+    color: inherit;
+
+}
+
+/* =========================================
+   IMAGES
+========================================= */
+
+img {
+
+    width: 100%;
+
+    display: block;
+
+}
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+button {
+
+    font-family: inherit;
+
+}
+
+/* PRIMARY BUTTON */
+
+.primary-btn {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    padding: 16px 30px;
+
+    border: none;
+
+    outline: none;
+
+    cursor: pointer;
+
+    border-radius: 18px;
+
+    font-size: 1rem;
+
+    font-weight: 600;
+
+    color: white;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--primary-color),
+            var(--secondary-color)
+        );
+
+    transition: var(--transition);
+
+    box-shadow:
+        0 0 20px rgba(0,247,255,0.2);
+
+}
+
+/* HOVER */
+
+.primary-btn:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 0 30px rgba(0
