@@ -750,3 +750,70 @@ textarea,
     .section-header h2 {
 
         font-size: 
+2.3rem;
+
+    }
+
+    .container {
+
+        padding: 0 16px;
+
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .primary-btn,
+    .secondary-btn {
+
+        width: 100%;
+
+        justify-content: center;
+
+    }
+
+    .section-header {
+
+        margin-bottom: 45px;
+
+    }
+
+    .section-header h2 {
+
+        font-size: 2rem;
+
+    }
+
+    .section-header p {
+
+        font-size: 0.98rem;
+
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    body {
+
+        font-size: 14px;
+
+    }
+
+    .section-header h2 {
+
+        font-size: 1.7rem;
+
+    }
+
+    .primary-btn,
+    .secondary-btn {
+
+        padding: 14px 20px;
+
+        font-size: 0.95rem;
+
+    }
+
+}
