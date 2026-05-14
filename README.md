@@ -93,45 +93,7 @@ This project was developed as part of the **Codveda Technologies Internship Prog
 
 ---
 
-# 📂 Folder Structure
-
-```bash
-Nexora-AI-Workspace-SPA/
-│
-├── public/
-│
-├── src/
-│   │
-│   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── Sidebar.jsx
-│   │   └── Footer.jsx
-│   │
-│   ├── context/
-│   │   └── ThemeContext.jsx
-│   │
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── About.jsx
-│   │   ├── Dashboard.jsx
-│   │   └── Contact.jsx
-│   │
-│   ├── styles/
-│   │   ├── global.css
-│   │   ├── navbar.css
-│   │   ├── home.css
-│   │   ├── about.css
-│   │   ├── dashboard.css
-│   │   ├── contact.css
-│   │   └── footer.css
-│   │
-│   ├── App.jsx
-│   └── main.jsx
-│
-├── package.json
-├── vite.config.js
-└── README.md
-
+bash,,,
 
 # 🚀 Nexora AI Workspace SPA
 
