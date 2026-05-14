@@ -226,3 +226,202 @@
     border-radius: 22px;
 
     display: flex
+    align-items: center;
+
+    justify-content: center;
+
+    margin-bottom: 25px;
+
+    font-size: 1.8rem;
+
+    color: white;
+
+    background: linear-gradient(
+        135deg,
+        #00f7ff,
+        #8b5cf6
+    );
+
+    box-shadow:
+        0 0 20px rgba(0,247,255,0.25);
+
+}
+
+/* TITLE */
+
+.value-card h3 {
+
+    font-size: 1.5rem;
+
+    margin-bottom: 18px;
+
+    color: white;
+
+}
+
+.light-theme .value-card h3 {
+
+    color: #111827;
+
+}
+
+/* TEXT */
+
+.value-card p {
+
+    line-height: 1.8;
+
+    color: #cbd5e1;
+
+}
+
+.light-theme .value-card p {
+
+    color: #374151;
+
+}
+
+/* =========================================
+   TEAM SECTION
+========================================= */
+
+.team-section {
+
+    padding: 80px 70px;
+
+}
+
+/* TEAM GRID */
+
+.team-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 28px;
+
+}
+
+/* TEAM CARD */
+
+.team-card {
+
+    padding: 40px 25px;
+
+    text-align: center;
+
+    border-radius: 30px;
+
+    background: rgba(255,255,255,0.05);
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    backdrop-filter: blur(20px);
+
+    transition: 0.4s ease;
+
+}
+
+.team-card:hover {
+
+    transform: translateY(-12px);
+
+    box-shadow:
+        0 0 30px rgba(139,92,246,0.2);
+
+}
+
+/* AVATAR */
+
+.team-avatar {
+
+    width: 90px;
+
+    height: 90px;
+
+    margin: auto;
+
+    margin-bottom: 25px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 2rem;
+
+    color: white;
+
+    background: linear-gradient(
+        135deg,
+        #00f7ff,
+        #8b5cf6
+    );
+
+    box-shadow:
+        0 0 20px rgba(0,247,255,0.25);
+
+}
+
+/* NAME */
+
+.team-card h3 {
+
+    font-size: 1.4rem;
+
+    margin-bottom: 12px;
+
+    color: white;
+
+}
+
+.light-theme .team-card h3 {
+
+    color: #111827;
+
+}
+
+/* ROLE */
+
+.team-card p {
+
+    color: #cbd5e1;
+
+    font-size: 0.95rem;
+
+}
+
+.light-theme .team-card p {
+
+    color: #374151;
+
+}
+
+/* =========================================
+   CTA SECTION
+========================================= */
+
+.about-cta {
+
+    padding: 80px 70px;
+
+}
+
+/* CTA BOX */
+
+.cta-box {
+
+    padding: 70px 50px;
+
+    text-align: center;
+
+    border-radius: 40px;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(0,247,255,0.
